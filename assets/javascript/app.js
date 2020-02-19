@@ -596,6 +596,22 @@ $('a').on('click', function (e) {
 });
 
 
+$('.radio').on('click', function (event) {
+
+    $("#dropdownMenuButton").css("display", "inline-block");
+    $(".team-selection").css("display", "inline-block");
+    $("#enterName").css("display", "inline-block");
+    $("#bootstrapClass").removeClass("col-lg-12");
+    $("#bootstrapClass").addClass("col-lg-4");
+    $("#changeSize").attr("style", "margin-top: 100px;");
+    $("#bootstrapClass2").removeClass("col-0");
+    $("#bootstrapClass2").addClass("col-lg-4");
+
+
+
+});
+
+
 
 
 
