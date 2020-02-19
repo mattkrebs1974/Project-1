@@ -590,8 +590,10 @@ $('a').on('click', function (e) {
     if (this.hash !== '') {
         e.preventDefault();
         const hash = this.hash;
+        
+        // console.log(scrollTop);
 
-        $('html, body').animate({ scrollTop: $(hash).offset().top}, 2400);
+        $('html, body').animate({ scrollTop: $(hash).offset().top}, 3500);
     }
 });
 
