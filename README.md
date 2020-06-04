@@ -9,11 +9,11 @@ This website relies on 5 different API calls to allow you to Travel with your Te
 
 ## Deployment 
 
-This application can be found [here.]()
+This application can be found [here.](https://mattkrebs1974.github.io/Project-1/)
 
 ## User Experience
 
-This App shows 10 of the most popular Gifs when any of the provided buttons are pressed. If the user wants to create a new keyword he/she can and that new keyword will replace one of the ones that are currently there. 
+Upon load this App will require users to select a league and then a team that they wish to travel with. When the team is selected they have to select the game they would like to attend. Once they select the game they will be shown a list of events in and around the location of that game which they will travel to. 
 
 
 
